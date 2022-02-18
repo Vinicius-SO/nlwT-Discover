@@ -18,7 +18,7 @@
 
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
-    --grey-medium: #D3D9E2;
+    --grey-medium: #eaecf1;
     --grey-light: #D3D9E2;
 
     --hover-blue: #5699FF ;
@@ -30,7 +30,6 @@
 
 body{
     display: flex;
-    flex-direction: column;
     height: 100vh;
     background: var(--background);
 }
@@ -79,7 +78,8 @@ button, .button{
 button:hover, .button:hover{
     filter: brightness(1.2);
 }
-button > img{
+button > img,
+.button> img{
     margin-right: 1rem;
     width: 2rem;
 }
