@@ -38,6 +38,7 @@ main h2{
 input{
     border:  .2rem solid var(--grey-blue);
     padding: 0 1.5rem;
+    outline: none;
 }
 input, button, .button{
     width: 100%;
