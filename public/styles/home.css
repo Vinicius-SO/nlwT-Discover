@@ -14,7 +14,7 @@ header{
 }
 #bg{
     grid-area: left;
-    background: url('/assets/Bg_Home.svg') no-repeat top/contain;  
+    background: url('/images/Bg_Home.svg') no-repeat top/contain;  
     background-position-x: -10rem ; 
 }
 main{

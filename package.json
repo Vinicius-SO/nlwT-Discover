@@ -1,20 +1,27 @@
 {
   "name": "discover",
   "version": "1.0.0",
-  "description": "<h1 align=\"center\">\r   Rocket-Q",
-  "main": "index.js",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuarios direcionadas ao dono da página. Projeto desenvolvido na semana da NLW Rocketseat na missão Discover",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Vinicius-SO/nlwT-Discover.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vinicius Soares",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Vinicius-SO/nlwT-Discover/issues"
   },
-  "homepage": "https://github.com/Vinicius-SO/nlwT-Discover#readme"
+  "homepage": "https://github.com/Vinicius-SO/nlwT-Discover#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
