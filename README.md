@@ -5,7 +5,7 @@
   
 </h1>
 <p align="center">
-  <img src="/assets/logo.svg" />
+  <img src="/images/logo.svg" />
 </p>
 
 
